@@ -1,6 +1,6 @@
 .header {
-  @include bg-base;
+  @include backgroud;
   background-image: url("/images/desktop/image-header.jpg");
-  height: calc(100vh - 6rem);
+  height: calc(100vh - 8.6rem);
   padding: 4.3rem 4rem;
 }
