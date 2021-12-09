@@ -1,0 +1,35 @@
+.header {
+  &__menu {
+    display: flex;
+    font-family: $title;
+  }
+
+  .logo {
+    font-weight: 900;
+    color: $white;
+  }
+}
+
+.menu {
+  &__nav {
+    display: flex;
+    gap: 5rem;
+    margin-left: auto;
+  }
+
+  &__item {
+  }
+  &__link {
+    color: $white;
+
+    &--contact {
+      background-color: $white;
+      padding: 1.5rem 3rem;
+      font-family: $display;
+      font-size: 1.4rem;
+      text-transform: uppercase;
+      border-radius: 100px;
+      color: $black;
+    }
+  }
+}
