@@ -38,7 +38,7 @@ body {
   align-items: center;
   margin-top: 8rem; }
   .header__inner img {
-    max-height: 10rem; }
+    max-height: 8rem; }
 
 .header .logo {
   font-weight: 900;
@@ -51,7 +51,10 @@ body {
   margin-left: auto; }
 
 .menu__link {
-  color: white; }
+  color: white;
+  transition: all 0.2s; }
+  .menu__link:hover {
+    color: #ffe347; }
   .menu__link--contact {
     background-color: white;
     padding: 1.5rem 2.5rem;
@@ -59,7 +62,11 @@ body {
     font-size: 1.4rem;
     text-transform: uppercase;
     border-radius: 100px;
-    color: #222; }
+    color: #222;
+    transition: all 0.2s; }
+    .menu__link--contact:hover {
+      background-color: #6fcfff;
+      color: white; }
 
 .header {
   background-position: center;
