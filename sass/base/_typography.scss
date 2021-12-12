@@ -2,9 +2,15 @@ body {
   font-family: $display;
 }
 
-.heading-1 {
-  color: $white;
-  font-size: 5rem;
-  letter-spacing: 8px;
-  text-transform: uppercase;
+.heading {
+  &-1 {
+    color: $white;
+    font-size: 5rem;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+  }
+
+  &-2 {
+    font-weight: 900;
+  }
 }
