@@ -1,0 +1,8 @@
+.section-about {
+  display: flex;
+  max-width: $desktop;
+
+  &__image {
+    max-width: 100%;
+  }
+}
