@@ -1,0 +1,59 @@
+.section-client {
+  display: flex;
+  gap: 8rem;
+  flex-direction: column;
+  padding: 15rem 0;
+
+  h2 {
+    align-self: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    color: $grayish;
+  }
+
+  &__clients {
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+  }
+
+  &__client {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 35rem;
+    width: 100%;
+
+    p {
+      font-family: $title;
+      text-align: center;
+      line-height: 3rem;
+      color: $neutral-dark-2;
+    }
+  }
+
+  &__photo {
+    max-width: 8rem;
+    width: 100%;
+    border-radius: 100%;
+    margin-bottom: 6rem;
+  }
+
+  &__description {
+    text-align: center;
+    margin-top: 8rem;
+
+    h3 {
+      font-weight: 900;
+      color: $neutral-dark-1;
+      margin-bottom: 0.8rem;
+    }
+
+    .client-status {
+      font-family: $title;
+      font-size: 1.5rem;
+      color: $grayish;
+    }
+  }
+}
