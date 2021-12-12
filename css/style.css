@@ -79,8 +79,7 @@ body {
     color: #23303e; }
   .the-content .paragraph {
     font-family: "Barlow";
-    font-size: 1.45rem;
-    line-height: 2.5rem;
+    line-height: 3rem;
     color: #8d9196;
     margin-bottom: 4rem; }
   .the-content a {
@@ -128,3 +127,9 @@ body {
   max-width: 1440px; }
   .section-about__image {
     max-width: 100%; }
+
+.section-services {
+  display: flex;
+  flex-direction: row-reverse; }
+  .section-services div {
+    padding: 14rem 16rem 0 12rem; }
