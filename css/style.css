@@ -26,6 +26,12 @@ body {
   font-size: 5rem;
   letter-spacing: 8px;
   text-transform: uppercase; }
+  .heading-1--footer {
+    font-size: 3rem;
+    text-transform: lowercase;
+    letter-spacing: 1px;
+    color: #34796a;
+    margin-bottom: 5rem; }
 
 .heading-2 {
   font-weight: 900; }
@@ -111,6 +117,39 @@ body {
       visibility: visible;
       -webkit-transform: scaleX(1);
       transform: scaleX(1); }
+
+.footer {
+  background-color: #90d4c5;
+  display: flex;
+  flex-direction: column;
+  font-family: "Barlow";
+  align-items: center;
+  padding: 5rem; }
+  .footer__navigator {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 5rem; }
+  .footer__link {
+    color: #458c7e;
+    font-size: 1.6rem; }
+  .footer__social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem; }
+    .footer__social-media .media {
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 1.6rem;
+      height: 1.6rem; }
+      .footer__social-media .media--1 {
+        background-image: url("../images/icon-facebook.svg"); }
+      .footer__social-media .media--2 {
+        background-image: url("../images/icon-instagram.svg"); }
+      .footer__social-media .media--3 {
+        background-image: url("../images/icon-twitter.svg"); }
+      .footer__social-media .media--4 {
+        background-image: url("../images/icon-pinterest.svg"); }
 
 .col {
   display: flex;
