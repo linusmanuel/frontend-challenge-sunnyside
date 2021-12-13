@@ -8,6 +8,14 @@ body {
     font-size: 5rem;
     letter-spacing: 8px;
     text-transform: uppercase;
+
+    &--footer {
+      font-size: 3rem;
+      text-transform: lowercase;
+      letter-spacing: 1px;
+      color: lighten($primary-dark-1, 10%);
+      margin-bottom: 5rem;
+    }
   }
 
   &-2 {

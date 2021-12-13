@@ -1,0 +1,45 @@
+.footer {
+  background-color: #90d4c5;
+  display: flex;
+  flex-direction: column;
+  font-family: $title;
+  align-items: center;
+  padding: 5rem;
+
+  &__navigator {
+    display: flex;
+    gap: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  &__link {
+    color: $primary-dark-4;
+    font-size: 1.6rem;
+  }
+
+  &__social-media {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+
+    .media {
+      @include background;
+      width: 1.6rem;
+      height: 1.6rem;
+
+      &--1 {
+        background-image: url("../images/icon-facebook.svg");
+      }
+
+      &--2 {
+        background-image: url("../images/icon-instagram.svg");
+      }
+      &--3 {
+        background-image: url("../images/icon-twitter.svg");
+      }
+      &--4 {
+        background-image: url("../images/icon-pinterest.svg");
+      }
+    }
+  }
+}
